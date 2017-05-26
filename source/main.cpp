@@ -46,7 +46,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD fdwReason, LPVOID lpvReserved)
 			hooks::register_module(system_path / "dxgi.dll");
 			hooks::register_module(system_path / "opengl32.dll");
 			hooks::register_module(system_path / "user32.dll");
-			hooks::register_module(system_path / "ws2_32.dll");
+			//hooks::register_module(system_path / "ws2_32.dll");
 
 			LOG(INFO) << "Initialized.";
 			break;
